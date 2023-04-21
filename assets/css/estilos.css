@@ -1,0 +1,92 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/fotoportada2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+
+}
+/* Foto Perfil */
+.rounded-circle {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%; 
+  border: 5px solid white; 
+}
+
+
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+/* LISTA */
+.container {
+  max-width: 1580px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+
+.box {
+  width: 45%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.box-1 {
+  background-color: #eee;
+}
+
+.box-2 {
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 767px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .box {
+    width: 100%;
+  }
+}
+
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
